@@ -1,5 +1,5 @@
 {
-	"name": "eipe/instagram",
+	"name": "cosenary/instagram",
 	"type": "library",
 	"description": "Replacement for cosenary/instagram that is a PHP Class for accessing Instagram's API.",
 	"keywords": ["instagram", "api"],
@@ -21,9 +21,6 @@
 			"MetzWeb\\Instagram\\": "src"
 		}
 	},
-    "replace": {
-      "cosenary/instagram":"2.3.*"
-    },
 	"extra": {
 		"branch-alias": {
 			"dev-master": "2.4-dev"
