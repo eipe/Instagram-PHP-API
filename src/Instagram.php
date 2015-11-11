@@ -316,7 +316,7 @@ class Instagram {
    * @return mixed
    */
   public function getTagMedia($name, $limit = 0, $min = null, $max = null) {
-    return $this->_makeCall('tags/' . $name . '/media/recent', isset($this->_accesstoken), array('count' => $limit, 'min_tag_id'=>$min 'max_tag_id'=>$max));
+    return $this->_makeCall('tags/' . $name . '/media/recent', isset($this->_accesstoken), array('count' => $limit, 'min_tag_id'=>$min, 'max_tag_id'=>$max));
   }
 
   /**
