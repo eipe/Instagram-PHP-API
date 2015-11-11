@@ -22,7 +22,7 @@
 		}
 	},
     "replace": {
-      "cosenary/instagram":"2.3.*"
+      "cosenary/instagram":"~2.0"
     },
 	"extra": {
 		"branch-alias": {
