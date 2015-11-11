@@ -3,7 +3,7 @@
 	"type": "library",
 	"description": "Replacement for cosenary/instagram that is a PHP Class for accessing Instagram's API.",
 	"keywords": ["instagram", "api"],
-	"homepage": "https://github.com/eipe/Instagram-PHP-API",
+	"homepage": "https://github.com/eipe/instagram",
 	"license": "BSD",
 	"authors": [
 		{
