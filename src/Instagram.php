@@ -310,11 +310,13 @@ class Instagram {
    *
    * @param string $name                  Valid tag name
    * @param integer [optional] $limit     Limit of returned results
+   * @param integer [optional] $min     Minimum tag id to collect
+   * @param integer [optional] $max     Maximum tag id to collect
    *
    * @return mixed
    */
-  public function getTagMedia($name, $limit = 0, $max = null) {
-    return $this->_makeCall('tags/' . $name . '/media/recent', isset($this->_accesstoken), array('count' => $limit, 'max_tag_id'=>$max));
+  public function getTagMedia($name, $limit = 0, $min = null, $max = null) {
+    return $this->_makeCall('tags/' . $name . '/media/recent', isset($this->_accesstoken), array('count' => $limit, 'min_tag_id'=>$min 'max_tag_id'=>$max));
   }
 
   /**
